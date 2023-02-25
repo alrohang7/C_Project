@@ -15,34 +15,20 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="review.c">
+    <ClCompile Include="C_Project-day3.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="scanf1.c">
+    <ClCompile Include="if2.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="operator1.c">
+    <ClCompile Include="if3.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="operator2.c">
+    <ClCompile Include="if4.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="operator3.c">
+    <ClCompile Include="switch1.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="quiz.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="operator4.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="homework.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="operator.c">
-      <Filter>소스 파일</Filter>
-    </None>
   </ItemGroup>
 </Project>

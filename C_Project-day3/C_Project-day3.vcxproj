@@ -18,24 +18,11 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="homework.c" />
-    <ClCompile Include="operator2.c" />
-    <ClCompile Include="operator3.c" />
-    <ClCompile Include="operator4.c" />
-    <ClCompile Include="quiz.c" />
-    <ClCompile Include="scanf1.c" />
-    <ClCompile Include="review.c" />
-    <ClCompile Include="operator1.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="operator.c" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{b070b600-6bf2-4787-ab71-870367806544}</ProjectGuid>
-    <RootNamespace>CProjectday2</RootNamespace>
+    <ProjectGuid>{d047a812-1121-48e9-816f-512d9533bcca}</ProjectGuid>
+    <RootNamespace>CProjectday3</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -114,7 +101,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
-      <SDLCheck>false</SDLCheck>
+      <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
@@ -128,7 +115,7 @@
       <WarningLevel>Level3</WarningLevel>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <SDLCheck>false</SDLCheck>
+      <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
@@ -139,6 +126,13 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="C_Project-day3.c" />
+    <ClCompile Include="if2.c" />
+    <ClCompile Include="if3.c" />
+    <ClCompile Include="if4.c" />
+    <ClCompile Include="switch1.c" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
